@@ -1,5 +1,7 @@
 # Applicable for DIYP program source editing and import, online testing of source bitrate (bitrate)
 
+[GitHub deom url](https://wizount.github.io/diyp-manager/)
+
 ## How to run
 
 ### Preconditions
