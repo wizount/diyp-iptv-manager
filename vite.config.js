@@ -7,7 +7,7 @@ export default defineConfig(({mode, command}) => {
     const env = loadEnv(mode, process.cwd())
     const {VITE_APP_ENV} = env
     return {
-        base: VITE_APP_ENV === 'production' ? '/' : '/',
+        base: VITE_APP_ENV === 'production' ? '/diyp-iptv-manager' : '/',
         plugins: createVitePlugins(env, 'build'),
         build:{
             outDir:'./iptv-checker-server/dist/client'

@@ -1,6 +1,6 @@
 # Applicable for DIYP program source editing and import, online testing of source bitrate (bitrate)
 
-[GitHub deom url](https://wizount.github.io/diyp-manager/)
+[GitHub deom url](https://wizount.github.io/diyp-iptv-manager/)
 
 ## How to run
 
