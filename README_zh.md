@@ -1,6 +1,6 @@
 # 适用diyp直播节目源导入、导出和编辑，在线测试源的码率(bitrate) 
 
-[GitHub演示地址](https://wizount.github.io/diyp-manager/)
+[GitHub演示地址](https://wizount.github.io/diyp-iptv-manager/)
 
 ## 怎样运行
 ### 前置条件
