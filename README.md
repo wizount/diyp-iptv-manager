@@ -5,9 +5,18 @@
 ## How to run
 
 ### Preconditions
-Run iptv checker server
-The bitrate of the source cannot be detected online without running it
+
+If you want to the bitrate of the iptv source, you have to do the things below:
+- Install [ffmpeg](https://ffmpeg.org/download.html)
+
+
+
 ### Development
+
+```sh
+npm run dev
+```
+Switch to ./iptv-checker-server/dist directory, then
 
 ```sh
 npm run dev
@@ -17,16 +26,18 @@ Open http://localhost:8080
 
 ### Publish
 
-First
+First, in the root directory
 
 ```Sh
 npm run build
 ```
 
 Switch to ./iptv-checker-server/dist directory, then
-
+```sh 
+npm run build
+```
 ```sh
-node iptv checker server.js
+node iptv-checker-server.js
 ```
 
 

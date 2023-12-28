@@ -4,10 +4,13 @@
 
 ## 怎样运行
 ### 前置条件
-运行iptv-checker-server
-未运行不能在线检测源的码率
+如果你需要在线测试直播源的码率，请安装[ffmpeg](https://ffmpeg.org/download.html)
 
 ### 开发
+```sh 
+npm run dev
+```
+切换到./iptv-checker-server/dist目录，然后
 ```sh 
 npm run dev
 ```
@@ -18,6 +21,9 @@ npm run dev
 npm run build
 ```
 切换到./iptv-checker-server/dist目录，然后
+```sh 
+npm run build
+```
 ```sh 
 node iptv-checker-server.js
 ```
